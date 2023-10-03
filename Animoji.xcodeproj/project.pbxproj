@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680FCD572ACCA81500A663C7 /* AnimojiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FCD562ACCA81500A663C7 /* AnimojiApp.swift */; };
+		680FCD592ACCA81500A663C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FCD582ACCA81500A663C7 /* ContentView.swift */; };
+		680FCD5B2ACCA81600A663C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FCD5A2ACCA81600A663C7 /* Assets.xcassets */; };
+		680FCD5E2ACCA81600A663C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680FCD5D2ACCA81600A663C7 /* Preview Assets.xcassets */; };
+		680FCD682ACCA81600A663C7 /* AnimojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FCD672ACCA81600A663C7 /* AnimojiTests.swift */; };
+		680FCD722ACCA81600A663C7 /* AnimojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FCD712ACCA81600A663C7 /* AnimojiUITests.swift */; };
+		680FCD742ACCA81600A663C7 /* AnimojiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680FCD732ACCA81600A663C7 /* AnimojiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680FCD642ACCA81600A663C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680FCD4B2ACCA81500A663C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FCD522ACCA81500A663C7;
+			remoteInfo = Animoji;
+		};
+		680FCD6E2ACCA81600A663C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680FCD4B2ACCA81500A663C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FCD522ACCA81500A663C7;
+			remoteInfo = Animoji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680FCD532ACCA81500A663C7 /* Animoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FCD562ACCA81500A663C7 /* AnimojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimojiApp.swift; sourceTree = "<group>"; };
+		680FCD582ACCA81500A663C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		680FCD5A2ACCA81600A663C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		680FCD5D2ACCA81600A663C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		680FCD632ACCA81600A663C7 /* AnimojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FCD672ACCA81600A663C7 /* AnimojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimojiTests.swift; sourceTree = "<group>"; };
+		680FCD6D2ACCA81600A663C7 /* AnimojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FCD712ACCA81600A663C7 /* AnimojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimojiUITests.swift; sourceTree = "<group>"; };
+		680FCD732ACCA81600A663C7 /* AnimojiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimojiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680FCD502ACCA81500A663C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD602ACCA81600A663C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD6A2ACCA81600A663C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680FCD4A2ACCA81500A663C7 = {
+			isa = PBXGroup;
+			children = (
+				680FCD552ACCA81500A663C7 /* Animoji */,
+				680FCD662ACCA81600A663C7 /* AnimojiTests */,
+				680FCD702ACCA81600A663C7 /* AnimojiUITests */,
+				680FCD542ACCA81500A663C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680FCD542ACCA81500A663C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680FCD532ACCA81500A663C7 /* Animoji.app */,
+				680FCD632ACCA81600A663C7 /* AnimojiTests.xctest */,
+				680FCD6D2ACCA81600A663C7 /* AnimojiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680FCD552ACCA81500A663C7 /* Animoji */ = {
+			isa = PBXGroup;
+			children = (
+				680FCD562ACCA81500A663C7 /* AnimojiApp.swift */,
+				680FCD582ACCA81500A663C7 /* ContentView.swift */,
+				680FCD5A2ACCA81600A663C7 /* Assets.xcassets */,
+				680FCD5C2ACCA81600A663C7 /* Preview Content */,
+			);
+			path = Animoji;
+			sourceTree = "<group>";
+		};
+		680FCD5C2ACCA81600A663C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				680FCD5D2ACCA81600A663C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		680FCD662ACCA81600A663C7 /* AnimojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				680FCD672ACCA81600A663C7 /* AnimojiTests.swift */,
+			);
+			path = AnimojiTests;
+			sourceTree = "<group>";
+		};
+		680FCD702ACCA81600A663C7 /* AnimojiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				680FCD712ACCA81600A663C7 /* AnimojiUITests.swift */,
+				680FCD732ACCA81600A663C7 /* AnimojiUITestsLaunchTests.swift */,
+			);
+			path = AnimojiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680FCD522ACCA81500A663C7 /* Animoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FCD772ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "Animoji" */;
+			buildPhases = (
+				680FCD4F2ACCA81500A663C7 /* Sources */,
+				680FCD502ACCA81500A663C7 /* Frameworks */,
+				680FCD512ACCA81500A663C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animoji;
+			productName = Animoji;
+			productReference = 680FCD532ACCA81500A663C7 /* Animoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680FCD622ACCA81600A663C7 /* AnimojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FCD7A2ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "AnimojiTests" */;
+			buildPhases = (
+				680FCD5F2ACCA81600A663C7 /* Sources */,
+				680FCD602ACCA81600A663C7 /* Frameworks */,
+				680FCD612ACCA81600A663C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680FCD652ACCA81600A663C7 /* PBXTargetDependency */,
+			);
+			name = AnimojiTests;
+			productName = AnimojiTests;
+			productReference = 680FCD632ACCA81600A663C7 /* AnimojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680FCD6C2ACCA81600A663C7 /* AnimojiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FCD7D2ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "AnimojiUITests" */;
+			buildPhases = (
+				680FCD692ACCA81600A663C7 /* Sources */,
+				680FCD6A2ACCA81600A663C7 /* Frameworks */,
+				680FCD6B2ACCA81600A663C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680FCD6F2ACCA81600A663C7 /* PBXTargetDependency */,
+			);
+			name = AnimojiUITests;
+			productName = AnimojiUITests;
+			productReference = 680FCD6D2ACCA81600A663C7 /* AnimojiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680FCD4B2ACCA81500A663C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					680FCD522ACCA81500A663C7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					680FCD622ACCA81600A663C7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 680FCD522ACCA81500A663C7;
+					};
+					680FCD6C2ACCA81600A663C7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 680FCD522ACCA81500A663C7;
+					};
+				};
+			};
+			buildConfigurationList = 680FCD4E2ACCA81500A663C7 /* Build configuration list for PBXProject "Animoji" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680FCD4A2ACCA81500A663C7;
+			productRefGroup = 680FCD542ACCA81500A663C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680FCD522ACCA81500A663C7 /* Animoji */,
+				680FCD622ACCA81600A663C7 /* AnimojiTests */,
+				680FCD6C2ACCA81600A663C7 /* AnimojiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680FCD512ACCA81500A663C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FCD5E2ACCA81600A663C7 /* Preview Assets.xcassets in Resources */,
+				680FCD5B2ACCA81600A663C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD612ACCA81600A663C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD6B2ACCA81600A663C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680FCD4F2ACCA81500A663C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FCD592ACCA81500A663C7 /* ContentView.swift in Sources */,
+				680FCD572ACCA81500A663C7 /* AnimojiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD5F2ACCA81600A663C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FCD682ACCA81600A663C7 /* AnimojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FCD692ACCA81600A663C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FCD742ACCA81600A663C7 /* AnimojiUITestsLaunchTests.swift in Sources */,
+				680FCD722ACCA81600A663C7 /* AnimojiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680FCD652ACCA81600A663C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680FCD522ACCA81500A663C7 /* Animoji */;
+			targetProxy = 680FCD642ACCA81600A663C7 /* PBXContainerItemProxy */;
+		};
+		680FCD6F2ACCA81600A663C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680FCD522ACCA81500A663C7 /* Animoji */;
+			targetProxy = 680FCD6E2ACCA81600A663C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		680FCD752ACCA81600A663C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		680FCD762ACCA81600A663C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680FCD782ACCA81600A663C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animoji/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.Animoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680FCD792ACCA81600A663C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animoji/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.Animoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		680FCD7B2ACCA81600A663C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.AnimojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animoji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animoji";
+			};
+			name = Debug;
+		};
+		680FCD7C2ACCA81600A663C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.AnimojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animoji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animoji";
+			};
+			name = Release;
+		};
+		680FCD7E2ACCA81600A663C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.AnimojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animoji;
+			};
+			name = Debug;
+		};
+		680FCD7F2ACCA81600A663C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.AnimojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Animoji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680FCD4E2ACCA81500A663C7 /* Build configuration list for PBXProject "Animoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FCD752ACCA81600A663C7 /* Debug */,
+				680FCD762ACCA81600A663C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FCD772ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "Animoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FCD782ACCA81600A663C7 /* Debug */,
+				680FCD792ACCA81600A663C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FCD7A2ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "AnimojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FCD7B2ACCA81600A663C7 /* Debug */,
+				680FCD7C2ACCA81600A663C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FCD7D2ACCA81600A663C7 /* Build configuration list for PBXNativeTarget "AnimojiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FCD7E2ACCA81600A663C7 /* Debug */,
+				680FCD7F2ACCA81600A663C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680FCD4B2ACCA81500A663C7 /* Project object */;
+}
