@@ -38,4 +38,25 @@ final class AnimojiUITests: XCTestCase {
             }
         }
     }
+    
+    func testToVerifyNextButton(){
+        let application = XCUIApplication()
+        let nextButton = application.buttons["arrowshape.turn.up.forward.fill"]
+        let foxEmoji = application.staticTexts["🦊"]
+        let pandaEmoji = application.staticTexts["🐼"]
+        
+        if foxEmoji.waitForExistence(timeout: 2) {
+            guard nextButton.waitForExistence(timeout: 2) else {
+                XCTFail("Unable to find the next button")
+                return
+            }
+            nextButton.tap()
+            guard pandaEmoji.exists else {
+                XCTFail("Failed to find the Panda emoji")
+                return
+            }
+        } else {
+            XCTFail("Failed to find the Fox emoji")
+        }
+    }
 }
